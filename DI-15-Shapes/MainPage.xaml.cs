@@ -26,5 +26,20 @@ namespace DI_15_Shapes
         {
             this.InitializeComponent();
         }
+
+        private void estrellita_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            myStoryboard.Begin();
+        }
+
+        private void Miboton_Click(object sender, RoutedEventArgs e)
+        {
+            botonGirador.Begin();
+        }
+
+        private void parar_Click(object sender, RoutedEventArgs e)
+        {
+            botonGirador.Stop();
+        }
     }
 }

@@ -6,9 +6,32 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    <Page.Resources>
+        <Storyboard x:Name="myStoryboard">
+            <DoubleAnimation
+              Storyboard.TargetName="estrellita"
+              Storyboard.TargetProperty="Opacity"
+              From="1.0" To="0.0" Duration="0:0:1"
+                RepeatBehavior="Forever"></DoubleAnimation>
+        </Storyboard>
+        <Storyboard x:Name="botonGirador">
+            <DoubleAnimation
+              Storyboard.TargetName="migiro"
+              Storyboard.TargetProperty="Angle"
+              From="-5.0" To="5.0" Duration="0:0:0.25"
+                RepeatBehavior="0:0:1.15" AutoReverse="true"></DoubleAnimation>
+        </Storyboard>
+    </Page.Resources>
     <Canvas Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <!-- Vertices: 100,100  118.66,105 118.6,118.6 -->
-        <Polygon Stroke="Red" StrokeThickness="1" Points=" 85,125.8 90,117.3 85,108.66 95,108.66 100,100 105,108.66 115,108.66 110,117.3 115,125.8"></Polygon>
+        <Polygon x:Name="estrellita" Stroke="Red" StrokeThickness="1" Fill="BlueViolet" PointerPressed="estrellita_PointerPressed"
+                 Points="95,125.8 85,125.8 90,117.3 85,108.66 95,108.66 100,100 105,108.66 115,108.66 110,117.3 115,125.8 105,125.8 100,134.4"></Polygon>
+        <Button x:Name="Miboton" Click="Miboton_Click" Content="Púlsame" Canvas.Left="20" Canvas.Top="20"
+                Width="80" Height="30">
+            <Button.RenderTransform>
+                <RotateTransform x:Name="migiro" CenterX="40" CenterY="15"></RotateTransform>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="parar" Click="parar_Click" Content="Parar" Canvas.Left="200" Canvas.Top="200"></Button>
     </Canvas>
 </Page>

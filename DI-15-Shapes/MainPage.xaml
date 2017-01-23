@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Canvas Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <!-- Vertices: 100,100  118.66,105 118.6,118.6 -->
+        <Polygon Stroke="Red" StrokeThickness="1" Points=" 85,125.8 90,117.3 85,108.66 95,108.66 100,100 105,108.66 115,108.66 110,117.3 115,125.8"></Polygon>
     </Canvas>
 </Page>

@@ -41,5 +41,7 @@ namespace DI_15_Shapes
         {
             botonGirador.Stop();
         }
+
+
     }
 }

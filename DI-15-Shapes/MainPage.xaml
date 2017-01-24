@@ -33,5 +33,26 @@
             </Button.RenderTransform>
         </Button>
         <Button x:Name="parar" Click="parar_Click" Content="Parar" Canvas.Left="200" Canvas.Top="200"></Button>
+        <Path Fill="Aquamarine">
+            <Path.Data>
+                <GeometryGroup>
+                    <EllipseGeometry Center="400,400" RadiusX="33" RadiusY="30" ></EllipseGeometry>
+                    <EllipseGeometry Center="403,400" RadiusX="30" RadiusY="30"></EllipseGeometry>
+                    <EllipseGeometry Center="397,400" RadiusX="33" RadiusY="30"></EllipseGeometry>
+                </GeometryGroup>
+            </Path.Data>
+        </Path>
+        <Path Fill="Green">
+            <Path.Data>
+                <GeometryGroup>
+                    <RectangleGeometry Rect="550,50 50,50" ></RectangleGeometry>
+                    <GeometryGroup >
+                        <LineGeometry StartPoint="550,50" EndPoint="560,40" />
+                        <LineGeometry StartPoint="560,40" EndPoint="570,50"/>
+                        <LineGeometry StartPoint="570,50" EndPoint="550,50"/>
+                    </GeometryGroup>
+                </GeometryGroup>
+            </Path.Data>
+        </Path>
     </Canvas>
 </Page>

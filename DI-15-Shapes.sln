@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI-15-Shapes", "DI-15-Shapes\DI-15-Shapes.csproj", "{8FAF17FA-5215-4726-BB0C-400619BB25DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI-15-Transitions", "DI-15-Transitions\DI-15-Transitions.csproj", "{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{8FAF17FA-5215-4726-BB0C-400619BB25DA}.Release|x86.ActiveCfg = Release|x86
 		{8FAF17FA-5215-4726-BB0C-400619BB25DA}.Release|x86.Build.0 = Release|x86
 		{8FAF17FA-5215-4726-BB0C-400619BB25DA}.Release|x86.Deploy.0 = Release|x86
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|ARM.Build.0 = Debug|ARM
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|x64.ActiveCfg = Debug|x64
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|x64.Build.0 = Debug|x64
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|x64.Deploy.0 = Debug|x64
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|x86.ActiveCfg = Debug|x86
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|x86.Build.0 = Debug|x86
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Debug|x86.Deploy.0 = Debug|x86
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|ARM.ActiveCfg = Release|ARM
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|ARM.Build.0 = Release|ARM
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|ARM.Deploy.0 = Release|ARM
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|x64.ActiveCfg = Release|x64
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|x64.Build.0 = Release|x64
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|x64.Deploy.0 = Release|x64
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|x86.ActiveCfg = Release|x86
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|x86.Build.0 = Release|x86
+		{52806DE7-8FE3-4CC1-A24B-A4F8B4306A7A}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
